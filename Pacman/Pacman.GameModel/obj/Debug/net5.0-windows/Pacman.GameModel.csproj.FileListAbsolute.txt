@@ -1,0 +1,17 @@
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\bin\Debug\net5.0-windows\Pacman.GameModel.deps.json
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\bin\Debug\net5.0-windows\Pacman.GameModel.dll
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\bin\Debug\net5.0-windows\ref\Pacman.GameModel.dll
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\bin\Debug\net5.0-windows\Pacman.GameModel.pdb
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\obj\Debug\net5.0-windows\Pacman.GameModel.csprojAssemblyReference.cache
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\obj\Debug\net5.0-windows\Pacman.GameModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\obj\Debug\net5.0-windows\Pacman.GameModel.AssemblyInfoInputs.cache
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\obj\Debug\net5.0-windows\Pacman.GameModel.AssemblyInfo.cs
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\obj\Debug\net5.0-windows\Pacman.GameModel.csproj.CoreCompileInputs.cache
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\obj\Debug\net5.0-windows\Pacman.GameModel.dll
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\obj\Debug\net5.0-windows\ref\Pacman.GameModel.dll
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\obj\Debug\net5.0-windows\Pacman.GameModel.pdb
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\bin\Debug\net5.0-windows\net5.0-windows\Pacman.GameModel.deps.json
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\bin\Debug\net5.0-windows\net5.0-windows\Pacman.GameModel.dll
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\bin\Debug\net5.0-windows\net5.0-windows\ref\Pacman.GameModel.dll
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\bin\Debug\net5.0-windows\net5.0-windows\Pacman.GameModel.pdb
+C:\Users\36702\Documents\oenik_prog4_2021_1_q06k3h_mcbt5s\Pacman\Pacman.GameModel\bin\Debug\net5.0-windows\net5.0-windows\Pacman.GameModel.xml

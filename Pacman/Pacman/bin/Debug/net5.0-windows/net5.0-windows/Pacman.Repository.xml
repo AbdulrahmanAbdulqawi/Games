@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pacman.Repository</name>
+    </assembly>
+    <members>
+        <member name="T:Pacman.Repository.IGameScoreboard">
+            <summary>
+            Defenition of functionalities that <see cref="T:Pacman.Repository.PacmanRepository"/> must implement.
+            </summary>
+        </member>
+        <member name="M:Pacman.Repository.IGameScoreboard.LoadBestScore">
+            <summary>
+            Loads scores from xml.
+            </summary>
+            <returns>List of users.</returns>
+        </member>
+        <member name="M:Pacman.Repository.IGameScoreboard.SaveBestScore(Pacman.GameModel.User)">
+            <summary>
+            Saves scores into xml.
+            </summary>
+            <param name="user">Current user that is playing.</param>
+        </member>
+        <member name="T:Pacman.Repository.IGameState">
+            <summary>
+            Defenition of functionalities that <see cref="T:Pacman.Repository.PacmanRepository"/> must implement.
+            </summary>
+        </member>
+        <member name="M:Pacman.Repository.IGameState.LoadCurrentState(System.String)">
+            <summary>
+            Loads current game state from xml.
+            </summary>
+            <param name="username">User that we want to load game for.</param>
+            <returns>Pacman model that contains all values of that game.</returns>
+        </member>
+        <member name="M:Pacman.Repository.IGameState.SaveCurrentState(Pacman.GameModel.PacmanModel)">
+            <summary>
+            Saves current game state to xml.
+            </summary>
+            <param name="model">PacmanModel that we will fill with values from current game.</param>
+        </member>
+        <member name="T:Pacman.Repository.PacmanRepository">
+            <summary>
+            Repository methods for saving and loading game and score.
+            </summary>
+        </member>
+        <member name="M:Pacman.Repository.PacmanRepository.LoadCurrentState(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Pacman.Repository.PacmanRepository.SaveCurrentState(Pacman.GameModel.PacmanModel)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Pacman.Repository.PacmanRepository.LoadBestScore">
+            <inheritdoc/>
+        </member>
+        <member name="M:Pacman.Repository.PacmanRepository.SaveBestScore(Pacman.GameModel.User)">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pacman.GameControl</name>
+    </assembly>
+    <members>
+        <member name="T:Pacman.GameControl.PacmanControl">
+            <summary>
+            Pacman WPF Control class.
+            </summary>
+        </member>
+        <member name="M:Pacman.GameControl.PacmanControl.#ctor(System.String,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Pacman.GameControl.PacmanControl"/> class.
+            </summary>
+            <param name="username">User name.</param>
+            <param name="isLoaded">Boolean value to determin if we have to load or start new game.</param>
+        </member>
+        <member name="M:Pacman.GameControl.PacmanControl.OnRender(System.Windows.Media.DrawingContext)">
+            <summary>
+            Ovveride of OnRender method, used for drawing PacmanModel.
+            </summary>
+            <param name="drawingContext">Pacman model as visual content.</param>
+        </member>
+    </members>
+</doc>

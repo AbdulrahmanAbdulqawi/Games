@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "p4zM7DiNpOr6Z30VEWKrt0NIJy+kJTeMIUR73jgbqYYlI/NXnS+DRC8BBr88HhUNvpA8WHvBlKqk4cr8qtmRzA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameControl\\Pacman.GameControl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\36702\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

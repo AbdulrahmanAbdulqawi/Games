@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pacman</name>
+    </assembly>
+    <members>
+        <member name="T:Pacman.App">
+            <summary>
+            Interaction logic for App.xaml.
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Pacman.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Pacman.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Pacman.BestScoresWindow">
+            <summary>
+            Interaction logic for BestScoresWindow.xaml.
+            </summary>
+            <summary>
+            BestScoresWindow
+            </summary>
+        </member>
+        <member name="M:Pacman.BestScoresWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Pacman.BestScoresWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Pacman.BestScoresWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Pacman.GameWindow">
+            <summary>
+            Interaction logic for GameWindow.xaml.
+            </summary>
+            <summary>
+            GameWindow
+            </summary>
+        </member>
+        <member name="M:Pacman.GameWindow.#ctor(System.String,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Pacman.GameWindow"/> class.
+            </summary>
+            <param name="username">User name.</param>
+            <param name="isLoad">Boolean value to determin if we have to load or start new game.</param>
+        </member>
+        <member name="M:Pacman.GameWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Pacman.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml.
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:Pacman.MainWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Pacman.MainWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Pacman.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

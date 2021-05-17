@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pacman.GameLogic</name>
+    </assembly>
+    <members>
+        <member name="T:Pacman.GameLogic.IPacmanLogic">
+            <summary>
+            Defenition of functionalities that <see cref="T:Pacman.GameLogic.PacmanLogic"/> must implement.
+            </summary>
+        </member>
+        <member name="M:Pacman.GameLogic.IPacmanLogic.Move(System.Int32,System.Int32)">
+            <summary>
+            Move model instance.
+            </summary>
+            <param name="dx">Direction x coordinate.</param>
+            <param name="dy">Direction y coordinate.</param>
+            <returns>Boolean value, to verify the if the operation was succesful.</returns>
+        </member>
+        <member name="M:Pacman.GameLogic.IPacmanLogic.MoveGhost(System.Windows.Point,System.Int32@,System.Int32@)">
+            <summary>
+            Move any ghost.
+            </summary>
+            <param name="p">FIX.</param>
+            <param name="newX">New x coordinate.</param>
+            <param name="newY">New y coordinate.</param>
+        </member>
+        <member name="M:Pacman.GameLogic.IPacmanLogic.MoveRedGhost">
+            <summary>
+            Move Red Ghost on his specific way.
+            </summary>
+            <returns>Boolean value, to verify the if the operation was succesful.</returns>
+        </member>
+        <member name="M:Pacman.GameLogic.IPacmanLogic.MoveBlueGhost">
+            <summary>
+            Move Blue Ghost on his specific way.
+            </summary>
+            <returns>Boolean value, to verify the if the operation was succesful.</returns>
+        </member>
+        <member name="M:Pacman.GameLogic.IPacmanLogic.MoveYellowGhost">
+            <summary>
+            Move Yellow Ghost on his specific way.
+            </summary>
+            <returns>Boolean value, to verify the if the operation was succesful.</returns>
+        </member>
+        <member name="M:Pacman.GameLogic.IPacmanLogic.MovePinkGhost">
+            <summary>
+            Move Pink Ghost on his specific way.
+            </summary>
+            <returns>Boolean value, to verify the if the operation was succesful.</returns>
+        </member>
+        <member name="M:Pacman.GameLogic.IPacmanLogic.MovePacman(System.Int32,System.Int32)">
+            <summary>
+            Move Pacman.
+            </summary>
+            <param name="newX">New x coordinate.</param>
+            <param name="newY">New y coordinate.</param>
+        </member>
+        <member name="M:Pacman.GameLogic.IPacmanLogic.EatDots(System.Int32,System.Int32)">
+            <summary>
+            Eat dots.
+            </summary>
+            <param name="newX">Pacmans new x coordinate, used to check if there is dot on that position.</param>
+            <param name="newY">Pacmans new y coordinate, used to check if there is dot on that position.</param>
+        </member>
+        <member name="M:Pacman.GameLogic.IPacmanLogic.DidDie">
+            <summary>
+            FIX 2.
+            </summary>
+            <returns>Boolean value, to verify the if the operation was succesful.</returns>
+        </member>
+        <member name="M:Pacman.GameLogic.IPacmanLogic.PacmanDied">
+            <summary>
+            Handels what happens when Pacman die.
+            </summary>
+            <returns>Boolean value, to verify the if the operation was succesful.</returns>
+        </member>
+        <member name="M:Pacman.GameLogic.IPacmanLogic.NextLevel(System.Boolean[0:,0:])">
+            <summary>
+            Check if level is passed or not.
+            </summary>
+            <param name="matrix">Game map.</param>
+            <returns>Boolean value, to verify the if the operation was succesful.</returns>
+        </member>
+        <member name="T:Pacman.GameLogic.PacmanLogic">
+            <summary>
+            Pacman game logic class.
+            </summary>
+        </member>
+        <member name="M:Pacman.GameLogic.PacmanLogic.#ctor(Pacman.GameModel.PacmanModel,System.String,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Pacman.GameLogic.PacmanLogic"/> class.
+            </summary>
+            <param name="model">Pacman model itself.</param>
+            <param name="fname">Level path.</param>
+            <param name="newGame">Boolean value determing if the game is new or loaded.</param>
+        </member>
+        <member name="M:Pacman.GameLogic.PacmanLogic.NextLevel(System.Boolean[0:,0:])">
+            <inheritdoc/>
+        </member>
+        <member name="M:Pacman.GameLogic.PacmanLogic.MovePacman(System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Pacman.GameLogic.PacmanLogic.PacmanEatPinkGhost">
+            <summary>
+            Method that handles what happens when Pacman eats Pink Ghost.
+            </summary>
+        </member>
+        <member name="M:Pacman.GameLogic.PacmanLogic.PacmanDied">
+            <inheritdoc/>
+        </member>
+        <member name="M:Pacman.GameLogic.PacmanLogic.CreateStrawberry">
+            <summary>
+            .
+            </summary>
+            <returns>boolean.</returns>
+        </member>
+        <member name="M:Pacman.GameLogic.PacmanLogic.DidDie">
+            <inheritdoc/>
+        </member>
+        <member name="M:Pacman.GameLogic.PacmanLogic.MoveRedGhost">
+            <inheritdoc/>
+        </member>
+        <member name="M:Pacman.GameLogic.PacmanLogic.MoveBlueGhost">
+            <inheritdoc/>
+        </member>
+        <member name="M:Pacman.GameLogic.PacmanLogic.MoveYellowGhost">
+            <inheritdoc/>
+        </member>
+        <member name="M:Pacman.GameLogic.PacmanLogic.MovePinkGhost">
+            <inheritdoc/>
+        </member>
+        <member name="M:Pacman.GameLogic.PacmanLogic.MoveGhost(System.Windows.Point,System.Int32@,System.Int32@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Pacman.GameLogic.PacmanLogic.EatDots(System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Pacman.GameLogic.PacmanLogic.Move(System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Pacman.GameLogic.QueueNode">
+            <summary>
+            Data Structure for queue used in ShortesPath class.
+            </summary>
+        </member>
+        <member name="M:Pacman.GameLogic.QueueNode.#ctor(System.Collections.Generic.List{System.Windows.Point},System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Pacman.GameLogic.QueueNode"/> class.
+            </summary>
+            <param name="pt">List of coordinats.</param>
+            <param name="dist">Distance.</param>
+        </member>
+        <member name="P:Pacman.GameLogic.QueueNode.Pt">
+            <summary>
+            Gets or sets pt.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameLogic.QueueNode.Dist">
+            <summary>
+            Gets or sets dist.
+            </summary>
+        </member>
+        <member name="T:Pacman.GameLogic.RandomNumber">
+            <summary>
+            Custume Random number generator class.
+            </summary>
+        </member>
+        <member name="M:Pacman.GameLogic.RandomNumber.Between(System.Int32,System.Int32)">
+            <summary>
+            Method that generates random number between minimum Value and maximum Value.
+            </summary>
+            <param name="minimumValue">Minimum Value.</param>
+            <param name="maximumValue">Maximum Value.</param>
+            <returns>Random int between minimumValue and maximumValue.</returns>
+        </member>
+        <member name="T:Pacman.GameLogic.ShortestPath">
+            <summary>
+            ShortestPath calculated with BFS Algorithm.
+            </summary>
+        </member>
+        <member name="M:Pacman.GameLogic.ShortestPath.BFS(System.Boolean[0:,0:],System.Windows.Point,System.Windows.Point)">
+            <summary>
+            a.
+            </summary>
+            <param name="m">ab1.</param>
+            <param name="src">a1.</param>
+            <param name="dest">asd1.</param>
+            <returns>12a.</returns>
+        </member>
+    </members>
+</doc>

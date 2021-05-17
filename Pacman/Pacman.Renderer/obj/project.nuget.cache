@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5F4UmqoJTCGMLkd1GTabnx3JCzK+ucedofhEhMc00xWXGWR6v/KckQFgU5tpks1XS3X6m1EfuFhT5dJkcaWhwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.Renderer\\Pacman.Renderer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\36702\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

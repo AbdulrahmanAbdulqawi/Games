@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User>
+    <Username>s</Username>
+    <Score>5554</Score>
+  </User>
+  <User>
+    <Username>asd</Username>
+    <Score>5058</Score>
+  </User>
+  <User>
+    <Username>a</Username>
+    <Score>4984</Score>
+  </User>
+  <User>
+    <Username>&lt;</Username>
+    <Score>2906</Score>
+  </User>
+  <User>
+    <Username>pavle</Username>
+    <Score>1278</Score>
+  </User>
+  <User>
+    <Username>aty</Username>
+    <Score>1160</Score>
+  </User>
+  <User>
+    <Username>djura</Username>
+    <Score>900</Score>
+  </User>
+  <User>
+    <Username>stefan</Username>
+    <Score>500</Score>
+  </User>
+  <User>
+    <Username>ads</Username>
+    <Score>278</Score>
+  </User>
+  <User>
+    <Username>WE DID IT 2</Username>
+    <Score>150</Score>
+  </User>
+  <User>
+    <Username>pera</Username>
+    <Score>58</Score>
+  </User>
+  <User>
+    <Username>WE DID IT</Username>
+    <Score>30</Score>
+  </User>
+</ArrayOfUser>

@@ -1,0 +1,384 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameControl\\Pacman.GameControl.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameControl\\Pacman.GameControl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameControl\\Pacman.GameControl.csproj",
+        "projectName": "Pacman.GameControl",
+        "projectPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameControl\\Pacman.GameControl.csproj",
+        "packagesPath": "C:\\Users\\36702\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameControl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\36702\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameLogic\\Pacman.GameLogic.csproj": {
+                "projectPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameLogic\\Pacman.GameLogic.csproj"
+              },
+              "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameModel\\Pacman.GameModel.csproj": {
+                "projectPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameModel\\Pacman.GameModel.csproj"
+              },
+              "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.Renderer\\Pacman.Renderer.csproj": {
+                "projectPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.Renderer\\Pacman.Renderer.csproj"
+              },
+              "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.Repository\\Pacman.Repository.csproj": {
+                "projectPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.Repository\\Pacman.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameLogic\\Pacman.GameLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameLogic\\Pacman.GameLogic.csproj",
+        "projectName": "Pacman.GameLogic",
+        "projectPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameLogic\\Pacman.GameLogic.csproj",
+        "packagesPath": "C:\\Users\\36702\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\36702\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameModel\\Pacman.GameModel.csproj": {
+                "projectPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameModel\\Pacman.GameModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameModel\\Pacman.GameModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameModel\\Pacman.GameModel.csproj",
+        "projectName": "Pacman.GameModel",
+        "projectPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameModel\\Pacman.GameModel.csproj",
+        "packagesPath": "C:\\Users\\36702\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\36702\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.Renderer\\Pacman.Renderer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.Renderer\\Pacman.Renderer.csproj",
+        "projectName": "Pacman.Renderer",
+        "projectPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.Renderer\\Pacman.Renderer.csproj",
+        "packagesPath": "C:\\Users\\36702\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.Renderer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\36702\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameModel\\Pacman.GameModel.csproj": {
+                "projectPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameModel\\Pacman.GameModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.Repository\\Pacman.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.Repository\\Pacman.Repository.csproj",
+        "projectName": "Pacman.Repository",
+        "projectPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.Repository\\Pacman.Repository.csproj",
+        "packagesPath": "C:\\Users\\36702\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\36702\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameModel\\Pacman.GameModel.csproj": {
+                "projectPath": "C:\\Users\\36702\\Documents\\oenik_prog4_2021_1_q06k3h_mcbt5s\\Pacman\\Pacman.GameModel\\Pacman.GameModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

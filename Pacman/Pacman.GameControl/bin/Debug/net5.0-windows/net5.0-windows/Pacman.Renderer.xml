@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pacman.Renderer</name>
+    </assembly>
+    <members>
+        <member name="T:Pacman.Renderer.IPacmanRenderer">
+            <summary>
+            Defenition of functionalities that <see cref="T:Pacman.Renderer.PacmanRenderer"/> must implement.
+            </summary>
+        </member>
+        <member name="M:Pacman.Renderer.IPacmanRenderer.BuildDrawing">
+            <summary>
+            Draw the full game model.
+            </summary>
+            <returns>Drawing of Pacman Model.</returns>
+        </member>
+        <member name="T:Pacman.Renderer.PacmanRenderer">
+            <summary>
+            Pacman Renderer class that will create viusals for Pacman Model.
+            </summary>
+        </member>
+        <member name="M:Pacman.Renderer.PacmanRenderer.#ctor(Pacman.GameModel.PacmanModel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Pacman.Renderer.PacmanRenderer"/> class.
+            </summary>
+            <param name="model">Pacman model itself.</param>
+        </member>
+        <member name="M:Pacman.Renderer.PacmanRenderer.BuildDrawing">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

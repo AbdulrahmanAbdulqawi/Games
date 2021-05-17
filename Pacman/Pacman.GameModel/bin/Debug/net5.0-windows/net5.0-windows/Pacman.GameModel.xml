@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pacman.GameModel</name>
+    </assembly>
+    <members>
+        <member name="T:Pacman.GameModel.Config">
+            <summary>
+            Configuration properties.
+            </summary>
+        </member>
+        <member name="F:Pacman.GameModel.Config.BackgroundBrush">
+            <summary>
+            Background Brush.
+            </summary>
+        </member>
+        <member name="F:Pacman.GameModel.Config.DotBrush">
+            <summary>
+            Dot Brush.
+            </summary>
+        </member>
+        <member name="F:Pacman.GameModel.Config.HeavyDotSize">
+            <summary>
+            Heavy Dot Size.
+            </summary>
+        </member>
+        <member name="F:Pacman.GameModel.Config.LightDotSize">
+            <summary>
+            Light Dot Size.
+            </summary>
+        </member>
+        <member name="T:Pacman.GameModel.Direction">
+            <summary>
+            Direction in which models can move.
+            </summary>
+        </member>
+        <member name="F:Pacman.GameModel.Direction.Stopped">
+            <summary>
+            Stop.
+            </summary>
+        </member>
+        <member name="F:Pacman.GameModel.Direction.Left">
+            <summary>
+            Left.
+            </summary>
+        </member>
+        <member name="F:Pacman.GameModel.Direction.Right">
+            <summary>
+            Right.
+            </summary>
+        </member>
+        <member name="F:Pacman.GameModel.Direction.Up">
+            <summary>
+            Up.
+            </summary>
+        </member>
+        <member name="F:Pacman.GameModel.Direction.Down">
+            <summary>
+            Down.
+            </summary>
+        </member>
+        <member name="T:Pacman.GameModel.IPacmanModel">
+            <summary>
+             Defenition of functionalities that <see cref="T:Pacman.GameModel.PacmanModel"/> must implement.
+            </summary>
+        </member>
+        <member name="M:Pacman.GameModel.IPacmanModel.Transform">
+            <summary>
+            Trasnform arrays to list for saving and loading via XML.
+            </summary>
+        </member>
+        <member name="T:Pacman.GameModel.PacmanModel">
+            <summary>
+            All propreties that PacmaModel contains.
+            </summary>
+        </member>
+        <member name="M:Pacman.GameModel.PacmanModel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Pacman.GameModel.PacmanModel"/> class.
+            </summary>
+        </member>
+        <member name="M:Pacman.GameModel.PacmanModel.#ctor(System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Pacman.GameModel.PacmanModel"/> class.
+            </summary>
+            <param name="width">Game width.</param>
+            <param name="height">Game height.</param>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.Fruits">
+            <summary>
+            Gets or sets fruits.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.Walls">
+            <summary>
+            Gets or sets Walls.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.Pacman">
+            <summary>
+            Gets or sets Pacman coordinates.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.HeavyDot">
+            <summary>
+            Gets or sets HeavyDot arrray.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.HeavyDotList">
+            <summary>
+            Gets or sets HeavyDotList.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.LightDots">
+            <summary>
+            Gets or sets LightDots array.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.LightDotsList">
+            <summary>
+            Gets or sets Light Dots List.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.FruitsList">
+            <summary>
+            Gets or sets HeavyDotList.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.Map">
+            <summary>
+            Gets or sets Map.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.RedGhost">
+            <summary>
+            Gets or sets Red Ghost coordinates.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.YellowGhost">
+            <summary>
+            Gets or sets Yellow Ghost coordinates.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.BlueGhost">
+            <summary>
+             Gets or sets Blue Ghost coordinates.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.PinkGhost">
+            <summary>
+             Gets or sets Pink Ghost coordinates.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.Level">
+            <summary>
+             Gets or sets Level.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.PacmanLifes">
+            <summary>
+             Gets or sets number of Pacman Lifes.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.GameWidth">
+            <summary>
+             Gets or sets Game Width.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.GameHeight">
+            <summary>
+             Gets or sets Game Height.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.TileSize">
+            <summary>
+             Gets or sets Tile Size.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.Score">
+            <summary>
+            Gets or sets Score.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.User">
+            <summary>
+            Gets or sets User.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.CanEat">
+            <summary>
+            Gets or sets CanEat.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.Eaten">
+            <summary>
+            Gets or sets Eaten.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.PacmanModel.CurrentDirection">
+            <summary>
+            Gets or sets Current Direction.
+            </summary>
+        </member>
+        <member name="M:Pacman.GameModel.PacmanModel.Transform">
+            <inheritdoc/>
+        </member>
+        <member name="T:Pacman.GameModel.User">
+            <summary>
+            User class.
+            </summary>
+        </member>
+        <member name="M:Pacman.GameModel.User.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Pacman.GameModel.User"/> class.
+            </summary>
+        </member>
+        <member name="M:Pacman.GameModel.User.#ctor(System.String,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Pacman.GameModel.User"/> class.
+            </summary>
+            <param name="username">User Name.</param>
+            <param name="score">Current score.</param>
+        </member>
+        <member name="P:Pacman.GameModel.User.Username">
+            <summary>
+            Gets or sets username.
+            </summary>
+        </member>
+        <member name="P:Pacman.GameModel.User.Score">
+            <summary>
+            Gets or sets score.
+            </summary>
+        </member>
+    </members>
+</doc>

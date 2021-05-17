@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pacman.LogicTests</name>
+    </assembly>
+    <members>
+        <member name="T:Pacman.LogicTests.LogicTester">
+            <summary>
+            Logic test for PacmanLogic class.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.Setup">
+            <summary>
+            Setiting the enviroment.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestConstructorNewGameOK">
+            <summary>
+            Tests if the ctor creates a PacmanLogic instance for a new game.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestConstructorLoadGameOK">
+            <summary>
+            Tests if the ctor creates a PacmanLogic instance for a loaded game.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestConstructorError">
+            <summary>
+            Tests if the ctor throw a FileNotFoundException if the level file cannot be found.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestNextLevelTrue">
+            <summary>
+            Tests if the NextLevel returns with True when all dots has been eaten.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestNextLevelFalse">
+            <summary>
+            Tests if the NextLevel returns with False when all dots has not been eaten.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestEatHeavyDotsTrue">
+            <summary>
+            Tests if Pacman eats heavyDot properly.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestEatHeavyDotsFalse">
+            <summary>
+            Tests if Pacman doesnt eats heavyDot properly.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestEatLightDotsTrue">
+            <summary>
+            Tests if Pacman eats lightDot properly.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestEatLightDotsFalse">
+            <summary>
+            Tests if Pacman doesnt eats lightDot properly.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestMovePacmanTrue">
+            <summary>
+            Tests if MovePacman moves Pacman properly.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestMovePacmanFalse">
+            <summary>
+            Tests if MovePacman doesnt move Pacman properly.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestPacmanDidDiedTrue">
+            <summary>
+            Tests if PacmanDied returns with True when Pacman dies.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestPacmanDidDiedFalseDidLoseLifeTrue">
+            <summary>
+            Tests if PacmanDied returns with False but Pacman still loses life.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestPacmanDidDiedFalseDidLoseLifeFalse">
+            <summary>
+            Tests if PacmanDied returns with False and Pacman doesnt lose life.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestEatGhost">
+            <summary>
+            Test if Pacman eats Red Ghost properly.
+            </summary>
+        </member>
+        <member name="M:Pacman.LogicTests.LogicTester.TestMoveDummyGhostDirectly">
+            <summary>
+            tmdgd.
+            </summary>
+        </member>
+    </members>
+</doc>
